@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 
-loaded_model=pickle.load(open('model.pkl','rb'))
+loaded_model=pickle.load(open('model.sav','rb'))
 def creditrating_prediction(data):
     
     prediction=loaded_model.predict(data)
