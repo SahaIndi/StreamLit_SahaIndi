@@ -1,11 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
-numpy==1.22.0
-pandas==1.3.4
-plotly==5.5.0
-streamlit==1.3.0
-scikit-learn==0.24.2
+
 
 loaded_model=pickle.load(open('model.pkl','rb'))
 def creditrating_prediction(data):
