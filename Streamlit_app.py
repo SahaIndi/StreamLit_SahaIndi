@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-loaded_model=pickle.load(open('/Users/user/Documents/M.Tech Data Science-BITS Pilani/Fourth Semester/model_pickle','rb'))
+loaded_model=pickle.load(open('model_pickle','rb'))
 def creditrating_prediction(data):
     
     prediction=loaded_model.predict(data)
