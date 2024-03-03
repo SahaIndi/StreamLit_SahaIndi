@@ -15,7 +15,7 @@ def main():
    df = pd.read_csv(uploaded_file)
    st.write(df)
    st.button('Predict credit rating of the financial institute')
-   st.success(creditrating_prediction)
+   st.success(creditrating_prediction(df))
   
 if __name__=='__main__':
  main()
