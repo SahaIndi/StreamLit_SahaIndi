@@ -25,9 +25,9 @@ def main():
 
 
 #Write the Result to App
-    st.write("Predicted Result") 
-    st.write(new_df)
-    st.success(creditrating_prediction(df))
+   st.write("Predicted Result") 
+   st.write(new_df)
+   st.success(creditrating_prediction(df))
   
 if __name__=='__main__':
  main()
