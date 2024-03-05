@@ -1,6 +1,24 @@
 import streamlit as st
+#importing necessary libraries
 import pandas as pd
+import numpy as np
+from random import sample
+import matplotlib.pyplot as plt
+%matplotlib inline
+from sklearn import preprocessing
+from sklearn.preprocessing import StandardScaler
+import seaborn as sns
+from xgboost import plot_importance
+from sklearn.pipeline import Pipeline
+import xgboost as xgb
+from sklearn.model_selection import GridSearchCV
 import pickle
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score,classification_report
+from sklearn.compose import ColumnTransformer
+from sklearn import preprocessing
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.base import BaseEstimator,TransformerMixin
 
 
 
