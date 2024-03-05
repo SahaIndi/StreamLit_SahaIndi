@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 from random import sample
 import matplotlib.pyplot as plt
-%matplotlib inline
+#%matplotlib inline
 from sklearn import preprocessing
 from sklearn.preprocessing import StandardScaler
 import seaborn as sns
