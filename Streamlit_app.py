@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from random import sample
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 #%matplotlib inline
 from sklearn import preprocessing
 from sklearn.preprocessing import StandardScaler
