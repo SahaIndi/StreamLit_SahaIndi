@@ -6,8 +6,6 @@ from random import sample
 
 from sklearn import preprocessing
 from sklearn.preprocessing import StandardScaler
-
-from xgboost import plot_importance
 from sklearn.pipeline import Pipeline
 import xgboost as xgb
 from sklearn.model_selection import GridSearchCV
