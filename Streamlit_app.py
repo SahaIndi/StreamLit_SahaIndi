@@ -38,6 +38,14 @@ def main():
    df=df.reset_index(drop=True)
    new_df=pd.concat([df,y_pred],axis=1,ignore_index=False)
 
+   data = {'predicted_labels': [0, 1, 2, 3, 4]}
+   df1 = pd.DataFrame(data)
+
+# Define a mapping from numerical labels to actual values
+   label_mapping = {0: 'High Risk', 1: 'Highest Risk', 2: 'Low Risk', 3: 'Lowest Risk',4:'Medium Risk'}
+
+# Apply the mapping to convert numerical labels to actual values
+   new_df['actual_labels'] = df1['predicted_labels'].map(label_mapping)
 
 #Write the Result to App
    st.write("Predicted Result") 
