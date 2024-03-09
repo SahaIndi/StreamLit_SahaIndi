@@ -26,7 +26,7 @@ def creditrating_prediction(data):
     print(prediction)
 
 def main():
- st.title("Credit Rating forecasting")
+ st.title("Credit Rating Forecasting for Corporates")
  uploaded_file = st.file_uploader("Choose a file")
  if uploaded_file is not None:
    df = pd.read_csv(uploaded_file)
